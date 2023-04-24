@@ -6,4 +6,4 @@ run:
 .PHONY: test
 
 test:
-		pdm run pytest
+		pdm run pytest --cov=main tests/

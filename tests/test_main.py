@@ -1,11 +1,6 @@
-# main.pyのテストを作成する
-# mlflow_wrapper classのテストを書きます
-# mlflowはmockして叩かないようにしたいです。
 from main import MLflowWrapper
 from unittest.mock import MagicMock
-import pytest
 import mlflow
-from mlflow.sklearn import log_model
 
 
 class TestMLflowWrapper:
