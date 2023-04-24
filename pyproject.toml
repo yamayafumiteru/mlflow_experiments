@@ -1,0 +1,20 @@
+[tool]
+[tool.pdm]
+
+[project]
+name = "mlflow_experiments"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yamayafumiteru", email = "fumiteru322@gmail.com"},
+]
+dependencies = [
+    "mlflow>=2.3.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
